@@ -1,0 +1,71 @@
+@use 'variables';
+
+$primary-color: red;
+
+
+nav {
+    ul {
+        border: 2px solid $primary-color;
+        li {
+            color: red;
+            a {
+                text-decoration: none;
+            }
+        }
+    }
+}
+// nav ul{
+//     text-decoration: none;
+//     background-color: black;
+//     color: white;
+// }
+// nav li{
+//     text-decoration: none;
+//     background-color: black;
+//     color: white;
+// }
+// nav li a{
+//     text-decoration: none;
+//     background-color: black;
+//     color: white;
+// }
+
+// ul{
+//     border: 2px solid $primary-color;
+// }
+
+
+button {
+    border: 1px solid red;
+    background-color: rgba(255, 0, 0, 0.185);
+
+    &:hover {
+        background-color: hotpink;
+        padding: 30px;
+    }
+}
+
+// button:hover {
+//     background-color: red;
+// }
+
+
+// h1 {
+//     color: steelblue;
+// }
+h1{
+    color: $primary-color;
+}
+h2 {
+    color: $primary-color;
+}
+
+p {
+    background-color: $primary-color;
+    color: white;
+    margin: 20px;
+    padding: 20px;
+    // font-size: 3rem;
+    font-size: variables.$large-font;
+
+}
